@@ -19,7 +19,7 @@ It seems we can easily implement customTasks in prefect and use that in our ETL 
 ### Approach taken :
 ================
 
-![dask-sql-etl](imgs/dask-sql-etl.PNG)
+![dask-sql-etl](imgs/dask-sql-etl.png)
 
 1. created a Dask-Sql context newly in each task
 2. Passed context from one task to another task .
